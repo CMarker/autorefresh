@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "AutoRefresh",
+    "description": "This extension allows you to refresh the current page.",
+    "version": "0.0.1",
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "contextMenus",
+        "*://*/*"
+    ]
+}
